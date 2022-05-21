@@ -3,8 +3,11 @@
 
 Repositório com a finalidade de aprender e praticar sobre API REST com .NET
 
+### 📖 Sobre o Projeto:
+
 ### 📔 Técnicas e Tecnologias utilizadas:
 
 - .NET 6
 - Microsoft Visual Studio Community 2022 
 
+### ⚒️ Executando o Projeto:
