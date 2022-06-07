@@ -8,10 +8,16 @@ using System.Threading.Tasks;
 
 namespace FilmesAPI.Data
 {
-    public class FilmeContext : DbContext 
+    public class AppDbContext : DbContext 
     {
-        public FilmeContext(DbContextOptions<FilmeContext> opt) : base (opt){}
+        public AppDbContext(DbContextOptions<AppDbContext> opt) : base (opt){}
 
         public DbSet<Filme> Filmes { get; set; }
+
+        public DbSet<Filme> Cinemas { get; set; }
+
+        public DbSet<Filme> Enderecos { get; set; }
+
+        public DbSet<Filme> Estudios { get; set; }
     }
 }

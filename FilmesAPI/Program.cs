@@ -7,7 +7,7 @@ var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
 
 // Add services to the container.
 
-builder.Services.AddDbContext<FilmeContext>(opts => opts.UseMySql(connString, serverVersion));
+builder.Services.AddDbContext<AppDbContext>(opts => opts.UseMySql(connString, serverVersion));
 builder.Services.AddControllers();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
