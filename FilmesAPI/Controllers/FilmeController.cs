@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using FilmesAPI.Models;
+using FilmesAPI.Data.Dtos.Filme;
 using FilmesAPI.Data;
-using FilmesAPI.Data.Dtos;
 using AutoMapper;
 
 namespace FilmesAPI.Controllers

@@ -14,6 +14,6 @@ namespace FilmesAPI.Models
 
         [Required(ErrorMessage = "O campo 'Nome' não pode ser vazio")]
         public string Nome { get; set; }
-        
+        public Filme FilmesDisponiveis { get; set; }
     }
 }

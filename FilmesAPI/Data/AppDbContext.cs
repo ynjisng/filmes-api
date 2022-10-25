@@ -14,10 +14,10 @@ namespace FilmesAPI.Data
 
         public DbSet<Filme> Filmes { get; set; }
 
-        public DbSet<Filme> Cinemas { get; set; }
+        public DbSet<Cinema> Cinemas { get; set; }
+ 
+        public DbSet<Endereco> Enderecos { get; set; }
 
-        public DbSet<Filme> Enderecos { get; set; }
-
-        public DbSet<Filme> Estudios { get; set; }
+        public DbSet<Estudio> Estudios { get; set; }
     }
 }

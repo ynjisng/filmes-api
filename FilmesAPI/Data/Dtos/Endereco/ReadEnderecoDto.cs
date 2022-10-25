@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FilmesAPI.Data.Endereco
+namespace FilmesAPI.Data.Dtos.Endereco
 {
     public class ReadEnderecoDto
     {
@@ -11,5 +11,6 @@ namespace FilmesAPI.Data.Endereco
         public string Bairro { get; set; }
         public int Numero { get; set; }
         public int Cep { get; set; }
+        public DateTime ConsultadoEm { get; set; }
     }
 }
